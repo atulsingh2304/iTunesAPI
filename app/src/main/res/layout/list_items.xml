@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingTop="@dimen/margin_3dp"
+    android:paddingBottom="@dimen/margin_5dp"
+    android:layout_centerInParent="true">
+
+    <com.songsapp.com.common.ui.CircularImageView
+        android:id="@+id/contentImage"
+        android:layout_width="@dimen/user_image_width_height"
+        android:layout_height="@dimen/user_image_width_height"
+        android:layout_margin="@dimen/margin_5dp"
+        android:layout_marginStart="@dimen/margin_5dp"
+        android:layout_marginEnd="@dimen/margin_5dp"
+        android:scaleType="centerCrop"
+        app:civ_border="true"
+        android:foregroundGravity="center_vertical"
+        app:civ_borderColor="@color/white"
+        app:civ_borderWidth="@dimen/margin_1dp"
+        android:layout_gravity="center_vertical">
+    </com.songsapp.com.common.ui.CircularImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/user_image_width_height"
+        android:textSize="@dimen/medium_font_size"
+        android:layout_marginRight="@dimen/margin_5dp"
+        android:layout_marginEnd="@dimen/margin_5dp"
+        android:maxLines="2"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:ellipsize="end"
+        android:textColor="@color/black"
+        android:id="@+id/contentTitle" />
+
+</LinearLayout>

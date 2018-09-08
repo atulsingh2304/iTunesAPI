@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <!-- view background color -->
+    <!--<solid android:color="@copm_bg_msg_fromfrom" >-->
+    <solid android:color="@color/rounded_bg_color" >
+    </solid>
+
+    <corners android:radius="20dp" >
+    </corners>
+
+</shape>
